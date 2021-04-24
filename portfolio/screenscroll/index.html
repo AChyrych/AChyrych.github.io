@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Поэкранный скролл. Навигация. Параллакс</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="header__menu menu">
+				<a href="" class="menu__link"> ГЛАВНАЯ</a></li>
+				<a href="" class="menu__link"> ОБО МНЕ</a></li>
+				<a href="" class="menu__link"> ПОРТФОЛИО</a></li>
+				<a href="" class="menu__link"> КОНТАКТЫ</a></li>
+			</nav>
+			<header class="header">
+				<div class="menu__icon">
+					<span></span>
+				</div>
+			</header>
+			
+			<main class="page">
+				<div class="page__wrapper">
+					<div class="page__screen screen  ">	
+						<div class=" screen__content about" data-swiper-parallax-opacity="0" data-swiper-parallax="10%" data-swiper-parallax-duration="1000">
+							<div class="about__ava"> 
+								<img src="img/ava.png" alt="">
+							</div> 
+							<div class=" about__text"  >
+								<p>ВСЕМ ПРИВЕТ!</p>
+								<p> Я, <span>АЛЕКСАНДРА ЧИРИЧ</span></p>
+								<p> Я junior front-end разработчик, специализируюсь на создании сайтов с доступными интерфейсами и чистым исходным кодом. Я увлечена своей работой, что позволяет реализовывать проекты любой сложности с исполнением всех требований заказчика быстро, на высоком уровне и в срок.</p>
+								<button class="about__btn">  ОБО МНЕ</button>
+							</div>
+						</div>
+					</div>
+					<div class="page__screen screen ">
+						<div class="screen__content resume _container">
+							<div class="resume__info  " data-swiper-parallax-opacity="0" data-swiper-parallax="-10%" data-swiper-parallax-duration="900" >
+								<div class="resume__title " data-swiper-parallax-opacity="0" data-swiper-parallax="-10%" data-swiper-parallax-duration="1000" >ОБО <span>МНЕ</span></div>
+								<div class="info-resume">
+									<div class="info-resume__personal personal">
+										<div class="personal__title"> ЛИЧНАЯ ИНФОРМАЦИЯ</div>
+										<div class="personal__text">
+												<p>Имя: Александра</p>
+												<p>Образование: БГУИР</p>
+												<p>Фамилия: Чирич</p>
+												<p>Телефон: +375(29)154-37-55</p>
+												<p>Возраст: 30</p>
+												<p>Email: a.chyrych@gmail.com</p>
+												<p>Город: Минск</p>
+												<p>Английский: Pre-intermediate</p>
+												
+										</div>
+										<div class="personal__btn"> СКАЧАТЬ РЕЗЮМЕ</div>
+									</div>
+									<div class="info-resume__experience experience">
+										<div class="experience__block">
+											<div class="experience__number">4 <sup>+</sup> </div>
+											<div class="experience__info">довольных заказчика</div>
+										</div>
+										<div class="experience__block">
+											<div class="experience__number">1 <sup>+</sup> </div>
+											<div class="experience__info">год опыта в разработке</div>
+										</div>
+										<div class="experience__block">
+											<div class="experience__number">7 <sup>+</sup> </div>
+											<div class="experience__info">готовых проекта</div>
+										</div>
+										<div class="experience__block">
+											<div class="experience__number">120 <sup>+</sup> </div>
+											<div class="experience__info">бессонных ночей</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="resume__skills skills-resume" data-swiper-parallax-opacity="0" data-swiper-parallax="10%" data-swiper-parallax-duration="900" >
+								<div class="skills-resume__subtitle"> МОИ НАВЫКИ</div>
+								<div class="skills-resume__row">
+									<div class="skills-resume__skill">
+										<div class="skills-resume__procent">
+											<div class=" skills-resume__border border1">
+												<div class=" skills-resume__circle">
+													<span class=" skills-resume__prec ">95%</span>
+												</div>
+											</div>
+										</div>
+										<div class="skills-resume__text"> HTML</div>
+									</div>
+									<div class="skills-resume__skill">
+										<div class="skills-resume__procent">
+											<div class=" skills-resume__border border2">
+												<div class=" skills-resume__circle">
+													<span class=" skills-resume__prec">85%</span>
+												</div>
+											</div>
+										</div>
+										<div class="skills-resume__text"> CSS</div>
+									</div>
+									<div class="skills-resume__skill">
+										<div class="skills-resume__procent">
+											<div class=" skills-resume__border border3">
+												<div class=" skills-resume__circle">
+													<span class=" skills-resume__prec">55%</span>
+												</div>
+											</div>
+										</div>
+										<div class="skills-resume__text"> JS</div>
+									</div>
+									<div class="skills-resume__skill">
+										<div class="skills-resume__procent">
+											<div class=" skills-resume__border border4">
+												<div class=" skills-resume__circle">
+													<span class=" skills-resume__prec">65%</span>
+												</div>
+											</div>
+										</div>
+										<div class="skills-resume__text"> CMS</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="page__screen screen">
+						<div class="screen__content portfolio _container" >
+							<div class="resume__title portfolio__title " data-swiper-parallax="50%">МОЕ <span>ПОРТФОЛИО</span></div>
+							<div class="portfolio__row">
+								<div class="portfolio__item portfolio__item-bg1">
+									
+									<div class="portfolio__info">
+										<div class="portfolio__info-name"> СТО</div>
+										<div class="portfolio__info-link">
+											<a href="http://mi7.by/" target="_blank">http://mi7.by/</a>
+										</div>
+										<div class="portfolio__info-discribe">
+											<a href="https://github.com/AChyrych/mi7"> Ссылка на github</a>
+										</div>
+									</div>
+								</div>
+								<div class="portfolio__item portfolio__item-bg2 ">
+									
+									<div class="portfolio__info">
+										<div class="portfolio__info-name"> Подбор красок</div>
+										<div class="portfolio__info-link">
+											<a href="https://achyrych.github.io/painting/" target="_blank">https:/painting/</a>
+										</div>
+										<div class="portfolio__info-discribe"> <a href="https://github.com/AChyrych/painting"> Ссылка на github</a></div>
+									</div>
+								</div>
+								<div class="portfolio__item portfolio__item-bg3">
+									
+									<div class="portfolio__info">
+										<div class="portfolio__info-name"> LUXTRADER</div>
+										<div class="portfolio__info-link">
+											<a href='https://achyrych.github.io/LuxTrader/' target="_blank">https:LuxTrader</a>
+										</div>
+										<div class="portfolio__info-discribe"> <a href="https://github.com/AChyrych/LuxTrader"> Ссылка на github</a></div>
+									</div>
+								</div>
+								<div class="portfolio__item portfolio__item-bg4">
+									
+									<div class="portfolio__info">
+										<div class="portfolio__info-name"> Натяжные потолки</div>
+										<div class="portfolio__info-link">
+											<div class="portfolio__info-discribe"> <a href="https://github.com/AChyrych/-ceiling"> Ссылка на github</a></div>
+										</div>
+										<div class="portfolio__info-discribe"></div>
+									</div>
+								</div>
+								
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="page__screen screen">
+						<div class="screen__content contacts _container">
+							<div class="screen__title contacts__title resume__title" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">НАПИШИ <span>МНЕ</span></div>
+							<div class="screen__text contacts__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="900">
+								<p class="contacts__text-about">  Я всегда открыта для обсуждения новых проектов, творческих идей и готова стать частью вашей команды </p>
+								<div class="contacts__info">
+									<div class="contacts__info-email icon-envelope">
+										<p>Напиши мне</p>
+										<p> <a href="mailto:a.chyrych@gmail.com" class="contact-link"> a.chyrych@gmail.com</a></p>
+									</div>
+									<div class="contacts__info-tel icon-phone-volume">
+										<p>Позвони мне</p>
+										<p> <a href="tel:+375291543755" class="contact-link"> +37529-154-37-55</a></p>
+									</div>
+								</div>
+								<div class="contacts__info-massenger">
+									<a href="https://www.instagram.com/aliaksandrachyrych/" target="_blank" class=""><i class="icon-instagram"></i></a>
+									<a href="tg://resolve?domain=aliaksandrachyrych" target="_blank" class=""><i class="icon-telegram"></i></a>
+									<a href="viber://chat?number=%2B375291543755" target="_blank" class=""><i class="icon-viber"></i></a>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__pagination"></div>
+				<div class="page__scroll"></div>
+			</main>
+		</div>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
