@@ -1174,7 +1174,7 @@ body.ie ._ibg img {
   font-size: 18px;
   color: #fff;
   background-color: #f7b11e;
-  padding: 10px 50px;
+  
   border-radius: 20px;
   text-decoration: none;
   outline: none;
@@ -1193,6 +1193,11 @@ body.ie ._ibg img {
   background-color: #f7b11e;
   background-image: -o-linear-gradient(45deg, #f7b11e 10%, #f0f07a 60%, #f7b11e 100%);
   background-image: linear-gradient(45deg, #f7b11e 10%, #f0f07a 60%, #f7b11e 100%);
+}
+.personal__btn a{
+  display: block;
+  color: #fff;
+  padding: 10px 50px;
 }
 
 .personal__btn:hover {
@@ -1847,7 +1852,6 @@ body.ie ._ibg img {
 
   .personal__btn {
     font-size: 10px;
-    padding: 10px 20px;
   }
 
   .experience {
