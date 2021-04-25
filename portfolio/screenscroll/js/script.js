@@ -135,6 +135,12 @@ let pageSlider = new Swiper('.page', {
 });
 
 let menuLinks = document.querySelectorAll('.menu__link');
+	// Переход по кнопке Обо мне
+let btnAbout = document.querySelector('.about__btn')
+	btnAbout.addEventListener("click", function (e) {
+		pageSlider.slideTo(1, 800);
+		e.preventDefault();
+	});
 
 function menuSlider() {
 	if (menuLinks.length > 0) {
